@@ -12,7 +12,7 @@ title:            B for Best Presents
 tagline:          MAT1041 General Election
 description:      "The wiki for our MAT1041 UK general election project!"
 url:              https://github.com/jamiecayley/MAT1041
-baseurl:          /
+baseurl:          /MAT1041/
 
 author:
   name:           'Jamie Calley'
