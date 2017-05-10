@@ -1,0 +1,28 @@
+# Plugins
+gems:             ['jekyll-paginate', 'jekyll-gist', 'jekyll-github-metadata']
+
+# Dependencies
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            B for Best Presents
+tagline:          MAT1041 General Election
+description:      "The wiki for our MAT1041 UK general election project!"
+url:              https://github.com/jamiecayley/MAT1041
+baseurl:          /
+
+author:
+  name:           'Jamie Calley'
+  url:            https://github.com/jamiecayley
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/jamiecayley/MAT1041
+repository:       jamiecalley/MAT1041
