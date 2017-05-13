@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Test Styles
+title: Group Report
+order: 3
 ---
 
 ## Full Style Test
@@ -100,7 +101,7 @@ Labore et dolore.
 
 </tr>
 
-<tr class="even">
+<tr>
 
 <td>Division 1</td>
 

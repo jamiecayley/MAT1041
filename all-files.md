@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Test Styles
+title: Files
+order: 5
 ---
 
 ## Full Style Test
@@ -100,7 +101,7 @@ Labore et dolore.
 
 </tr>
 
-<tr class="even">
+<tr>
 
 <td>Division 1</td>
 
