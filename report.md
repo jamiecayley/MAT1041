@@ -4,261 +4,65 @@ title: Group Report
 order: 3
 ---
 
-## Full Style Test
+- [Word Document](#word-document)
+- [Mathematician's Contribution to Election Method Design by Jamie](#mathematician's-contribution-to-election-method-design)
+- [Major Voting Systems in Use Around the World by Manny](#major-voting-systems-in-use-around-the-world) 
+- [Different Forms of Proportional Representation by Alex](#different-forms-of-proportional-representation)
+- [Advantages and Disadvantages of First Past the Post by Michael](#advantages-and-disadvantages-of-first-past-the-post)
+- [Accuracy of Opinion Polling](#accuracy-of-opinion-polling)
+- [Excel Report](#excel-report)
+- [MATLAB report](#matlab-report)
+- [References](#references)
 
-Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+## Word Document 
 
-* * *
+To download the word document with our group report click [here](https://github.com/jamiecayley/MAT1041/raw/gh-pages/files/group-report.docx). To read the text of our report without downloading the word document, keep on reading. Note: the format of the word document and the report on this page differ; the Excel and MATLAB reports are the same as the ones on the Excel and MATLAB pages, they were reproduced there to supplement the spreadsheets and the MATLAB code.  
 
-# Heading 1
+## Mathematician's Contribution to Election Method Design 
 
-## Heading 2
+Election methods consist of a set of rules that must be followed for a vote to be valid, including the form of the ballot (how votes are cast) as well as the process used to determine the final result of an election. The specific election method used can have a significant effect in the election’s final result, especially if there are more than 2 options for voters to choose, making the study of election method design very important.1 This report offers a brief overview of the history of voting theory, some of the contributions mathematicians have made to the field as well as explain some of the mathematical challenges involved in designing election methods. 
 
-### Heading 3
+### The Early History of Voting Theory 
+Voting and elections have played a significant role in society for centuries, but academics didn’t start studying them until much later. Voting has been a part of democracy since the 6th century, when Athenian democracy was introduced. However, election method design, the main focus of voting theory, wasn’t an object of academic study until the 18th century.2 Jean-Charles the Borda and Marquis de Condorcet are usually credited as the founders of voting theory for their contributions developing the Borda count, the Condorcet method and the Condorcet paradox.3
 
-#### Heading 4
+Later in the 18th century the topic of apportionment (also sometimes known as proportional representation), the process by which seats in a legislature (e.g. parliament) are allocated, began to be studied because the United States Constitution mandated that seats in the House of Representatives had to be allocated proportional to the population in each state but didn’t specify how.4 Various methods were proposed, and later, some of the methods discovered in the United States were rediscovered in Europe in the 19th century including Jefferson’s method/d’Hondt method, Webster’s method/Sainte-Laguë method, and Hamilton’s method/Hare largest remainder method.4 The single transferable vote, another apportionment method, was developed by Carl Andræ in Denmark in 18555 and Thomas Hare in England in 1857.6 
+In the late 19th century the focus went back to single winner methods. Around 1870 William Robert Ware propose applying single transferable vote to single winner elections, which became what is now known as the alternative vote.7 Shortly after mathematicians started revisiting Condorcet’s and Borda’s ideas and inventing new Condorcet methods, for example, Edward Nanson combined the alternative vote and the Borda count and produced a new Condorcet method called Nanson’s method.8 Charles Dodgson introduced the use of matrices to analyse Condorcet elections and proposed another Condorcet method known as Dodgson’s method.9 Ranked voting methods started gaining support and being used in government elections. The alternative vote was first adopted in Australia in 1893 and continues to be used to date.10  
 
-##### Heading 5
+### Some Election Methods in Action 
 
-###### Heading 6
+The Borda count, the Condorcet method and the alternative vote are all single winner election methods in which voters rank options in order of preference.11 When using the Borda count the outcome is determined by giving each option a number of points corresponding to the number of candidates ranked lower; when using the Condorcet method the outcome is determined by counting how many votes rank one candidate over the other for each possible pairing of candidates; when using the alternative votes the outcome is determined by counting the votes for each voter’s top choice, declaring a winner if a candidate has more than half of the voters or removing the candidate in last place and recounting until a candidate has a majority.11 
 
-* * *
+The Borda count is currently used for some political elections in Slovenia12, Kiribati13 and Nauru14; the Condorcet method is used in elections in various organizations including Music Television (MTV) 15, Ubuntu16, and Wikipedia17; the alternative vote is used for some political elections in Australia18, Canada19, the Czech Republic20, India21, Ireland22, New Zealand23, Papua New Guinea24, the United Kingdom25 and the United States26, 27. These 3 methods will be illustrated in the diagram below. 
 
-Lorem ipsum dolor sit amet, [test link](# "test link") adipiscing elit. **This is strong.** Nullam dignissim convallis est. Quisque aliquam. _This is emphasized._ Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125\. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That’s a citation). <span style="text-decoration:underline;">Underline.</span> Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+### A Few Results Relating to Designing and Selecting Election Methods 
 
-<abbr title="Hyper Text Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type `COPY undefined`. <del>Dinner’s at 5:00.</del> <ins>Let’s make that 7.</ins> This <span style="text-decoration:line-through;">text</span> has been struck.
+As seen above, the election method chosen can affect who is the winner, which raises the question of how to decide which election method to use. Mathematical criteria can be defined, and voting methods can hence be assessed based on whether or not they fit the criteria. However, the criteria might not be relevant in practice. An alternative approach is to define a set of ideal properties and then see how close different voting methods come to having said ideal properties over a large sample of simulated elections. In this case, the results are practically relevant but the result might be biased based on how the elections are simulated. In this section I’ll go over a few theorems and results relating to this topic. 
+The Condorcet paradox states that when there are 3 or more alternatives, the collective preferences can be cyclic even if the preferences of individual voters aren’t, e.g. if the voters’ ranked preferences are ABC,  BCA, CAB  respectively then A is preferred over B which is preferred over C which is preferred over A.28 One important implication of this paradox is that in a two stage voting process the winner might depend on how the 2 stages are structured.11 If the winner of A versus B then faces C then A would defeat B and then lose to C. But if instead the winner of B versus C faces A then B would defeat C and then lose to A. 
 
-* * *
+Arrow’s theorem states that when there are 3 or more alternatives no ranked order voting system can convert the individuals’ ranked preferences into a community-wide ranking while also meeting the following criteria: 
+Unrestricted domain: all voters’ preferences are allowed.
+Non-dictatorship: a single voter’s preference can’t determine the result of the election
+Pareto efficiency: we can’t pick a winner that would better fit an individual’s preferences without it being a worse fit for other individual’s preferences. 
+Independence of irrelevant alternatives: if candidate A is preferred over candidate B, introducing a third option  C mustn’t make B preferred over A.29
+A related result is the Gibbard-Satterthwaite theorem which states that if there are 3 or more options in a single-winner election one of the following must be true regardless of the specific election method used: 
+Dictatorship (as explained above). 
+There is a candidate who can never win. 
+The method is susceptible to tactical voting, i.e. a voter supporting a candidate other than their preference to prevent their least favourite candidate from winning.30, 31
 
-## Media
+### Conclusion
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+Mathematicians have made a lot of valuable contributions to voting theory. Some of the contributions were listed here, like the Borda count and the Condorcet method, but this is by no means a comprehensive account. Mathematician’s contributions to voting theory aren’t limited to direct contributions to the field either, for example, number theory and cryptography have recently started playing a role in the field. However, a lot of work remains to be done to better determine which election methods can best represent voters’ opinions and how to avoid bias or result manipulation deriving from the election method design. 
 
-### Big Image
+## Major Voting Systems in Use Around the World
 
-![Test Image](https://unsplash.imgix.net/photo-1429371527702-1bfdc0eeea7d)
+## Different Forms of Proportional Representation 
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+## Advantages and Disadvantages of First Past the Post 
 
-### Small Image
+## Accuracy of Opinion Polling
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+## Excel Report
 
-![Small Test Image](https://instagram.fmnl2-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/13437309_1167174123346027_1743223026_n.jpg)
+## MATLAB report
 
-Labore et dolore.
-
-* * *
-
-## List Types
-
-### Definition List
-
-<dl>
-
-<dt>Definition List Title</dt>
-
-<dd>This is a definition list division.</dd>
-
-<dt>Definition</dt>
-
-<dd>An exact statement or description of the nature, scope, or meaning of something: _our definition of what constitutes poetry._</dd>
-
-</dl>
-
-### Ordered List
-
-1.  List Item 1
-2.  List Item 2
-
-    1.  Nested list item A
-    2.  Nested list item B
-3.  List Item 3
-
-### Unordered List
-
-*   List Item 1
-*   List Item 2
-    *   Nested list item A
-    *   Nested list item B
-*   List Item 3
-
-* * *
-
-## Table
-
-<table>
-
-<tbody>
-
-<tr>
-
-<th>Table Header 1</th>
-
-<th>Table Header 2</th>
-
-<th>Table Header 3</th>
-
-</tr>
-
-<tr>
-
-<td>Division 1</td>
-
-<td>Division 2</td>
-
-<td>Division 3</td>
-
-</tr>
-
-<tr class="even">
-
-<td>Division 1</td>
-
-<td>Division 2</td>
-
-<td>Division 3</td>
-
-</tr>
-
-<tr>
-
-<td>Division 1</td>
-
-<td>Division 2</td>
-
-<td>Division 3</td>
-
-</tr>
-
-</tbody>
-
-</table>
-
-* * *
-
-## Preformatted Text
-
-Typographically, preformatted text is not the same thing as code. Sometimes, a faithful execution of the text requires preformatted text that may not have anything to do with code. Most browsers use Courier and that’s a good default — with one slight adjustment, Courier 10 Pitch over regular Courier for Linux users.
-
-### Code
-
-Code can be presented inline, like `<?php bloginfo('stylesheet_url'); ?>`, or within a `<pre>` block.
-
-CSS code
-
-```css
-#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-```
-
-Ruby code
-
-```ruby
-require "rubygems"
-
-string = "tomorrow"
-symbol = :tomorrow
-fixnum = 0
-float  = 0.00
-array  = Array.new
-array  = ['chris', 85]
-hash   = {"test" => "test"}
-regexp = /[abc]/
-
-# This is a comment
-class Person
-
-  attr_accessor :name
-
-  def initialize(attributes = {})
-    @name = attributes[:name]
-  end
-
-  def self.greet
-    "hello"
-  end
-end
-
-person1 = Person.new(:name => "Chris")
-print Person::greet, " ", person1.name, "\n"
-puts "another #{Person::greet} #{person1.name}"
-```
-
-## Blockquotes
-
-Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.
-
-> Good afternoon, gentlemen. I am a HAL 9000 computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992\. My instructor was Mr. Langley, and he taught me to sing a song. If you’d like to hear it I can sing it for you. <cite>— [HAL 9000](http://en.wikipedia.org/wiki/HAL_9000)</cite>
-
-And here’s a bit of trailing text.
-
-* * *
-
-## Text-level semantics
-
-The [a element](#) example
-The <abbr>abbr element</abbr> and <abbr title="Title text">abbr element with title</abbr> examples
-The **b element** example
-The <cite>cite element</cite> example
-The `code element` example
-The <del>del element</del> example
-The <dfn>dfn element</dfn> and <dfn title="Title text">dfn element with title</dfn> examples
-The _em element_ example
-The _i element_ example
-The <ins>ins element</ins> example
-The <kbd>kbd element</kbd> example
-The <mark>mark element</mark> example
-The <q>q element <q>inside</q> a q element</q> example
-The <s>s element</s> example
-The <samp>samp element</samp> example
-The <small>small element</small> example
-The <span>span element</span> example
-The **strong element** example
-The <sub>sub element</sub> example
-The <sup>sup element</sup> example
-The <var>var element</var> example
-The <u>u element</u> example
-
-* * *
-
-## Embeds
-
-Sometimes all you want to do is embed a little love from another location and set your post alive.
-
-### Video
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-<iframe src="//player.vimeo.com/video/83910533?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-
-Culpa qui officia deserunt mollit anim id est laborum.
-
-### Slides
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-<div><iframe class="speakerdeck-iframe" frameborder="0" src="//speakerdeck.com/player/88f09170c0e60131e0fe72c781b73270?" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; margin: 0px; padding: 0px; border-radius: 5px; width: 710px; height: 461.37499999999955px; background: transparent;"></iframe></div>
-
-Culpa qui officia deserunt mollit anim id est laborum.
-
-### Audio
-
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/202156472&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-
-Culpa qui officia deserunt mollit anim id est laborum.
-
-### Code
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
-
-<div><iframe id="cp_embed_bcqhe" src="//codepen.io/brenden/embed/VLjKMQ/?height=268&amp;theme-id=0&amp;slug-hash=bcqhe&amp;default-tab=result&amp;user=brenden" scrolling="no" frameborder="0" height="268" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe undefined" style="width: 100%; overflow: hidden;"></iframe></div>
-
-It is awesome.
-
-<small>Source: Markdown code of this page is based on Ghost's [comprehensive style test](http://demo.ghost.io/style-test/)</small>
+## References
