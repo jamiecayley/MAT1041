@@ -27,9 +27,9 @@ order: 2
 
 ## Datasets 
 
-To download the excel spreadsheet with the original dataset click [here](https://github.com/jamiecayley/MAT1041/tree/gh-pages/files/matlab/original-spreadsheet.xlsx)
+To download the excel spreadsheet with the original dataset click [here](https://github.com/jamiecayley/MAT1041/raw/gh-pages/files/matlab/original-spreadsheet.xlsx)
 
-To download the modified spreadsheet that was used for the matlab analysis click [here](https://github.com/jamiecayley/MAT1041/tree/gh-pages/files/matlab/modified-spreadsheet.xlsx)
+To download the modified spreadsheet that was used for the matlab analysis click [here](https://github.com/jamiecayley/MAT1041/raw/gh-pages/files/matlab/modified-spreadsheet.xlsx)
 
 
 ## Code
