@@ -56,7 +56,7 @@ The Borda count, the Condorcet method and the alternative vote are all single wi
 
 The Borda count is currently used for some political elections in Slovenia<sup>12</sup>, Kiribati<sup>13</sup> and Nauru<sup>14</sup>; the Condorcet method is used in elections in various organizations including Music Television (MTV) <sup>15</sup>, Ubuntu<sup>16</sup>, and Wikipedia<sup>17</sup>; the alternative vote is used for some political elections in Australia<sup>18</sup>, Canada<sup>19</sup>, the Czech Republic<sup>20</sup>, India<sup>21</sup>, Ireland<sup>22</sup>, New Zealand<sup>23</sup>, Papua New Guinea<sup>24</sup>, the United Kingdom<sup>25</sup> and the United States<sup>26, 27</sup>. These 3 methods will be illustrated in the diagram below. 
 
-![Election Methods](https://github.com/jamiecayley/MAT1041/raw/gh-pages/public/image1.png)
+![Election Methods](https://github.com/jamiecayley/MAT1041/blob/gh-pages/public/images/image1.png)
 
 ### A Few Results Relating to Designing and Selecting Election Methods 
 
@@ -93,7 +93,7 @@ First past the post is one of the most popular voting systems around the world, 
 
 On polling day, the electorate is given a list of candidates standing for election in their constituency.  An individual may only choose one candidate to vote for.  After polling stations close, the votes are subsequently counted and the candidate with the most votes wins and is sent to Parliament. Therefore, all other candidates lose and are not sent to Parliament; this leads to some dubbing this system “winner takes all”.<sup>33</sup>
 
-![Election Results](https://github.com/jamiecayley/MAT1041/raw/gh-pages/public/image2.png)*Pie chart<sup>34</sup> showing the results from the UK 2015 Westminster elections. Inner circle shows popular vote. Outer circle shows seats won.* 
+![Election Results](https://github.com/jamiecayley/MAT1041/blob/gh-pages/public/images/image2.png) * Pie chart<sup>34</sup> showing the results from the UK 2015 Westminster elections. Inner circle shows popular vote. Outer circle shows seats won. * 
 
 The popular vote for a party is defined as the total number of votes won by all the candidates who stood for the same party.  Since losers are given nothing, nor is there a minimum vote the winner must achieve, this can lead to Parliaments where one party may have a majority of seats but a minority of the popular vote. This happens because the party that won the election, fielded candidates who defeated all alternative candidates in a majority of constituencies in the country. Thus, proportionality is traded for local accountability.
 
@@ -103,7 +103,7 @@ Party list PR is popular in the European Mainland, Latin America, and sub-Sahara
 
 On polling day, the electorate is then given the right to choose their favourite list of candidates and may vote for one respectively. There are several different ways to count votes, here we will look at a commonly used method which is the d'Hondt method.<sup>37</sup> First, the total votes are tallied and divided by the number of seats won by the party (either in the constituency or the entire nation) plus one to acquire a number for the quota for each party. Obviously, at the beginning of the counting process every party has zero seats.
 
-![Quota](https://github.com/jamiecayley/MAT1041/raw/gh-pages/public/image3.png)
+![Quota](https://github.com/jamiecayley/MAT1041/blob/gh-pages/public/images/image3.png)
 
 Under the d'Hondt counting system, the party which has the largest quota has its 1st member of the list granted a seat in Parliament and they are duly elected. Then the quota for that party is adjusted thereafter and the party with the largest quota is sought after again. This process is repeated, so ensuring a level of proportionality of seats won to votes cast for those parties. It also ensures that the leadership of all the parties are entrenched in Parliament since the leadership put themselves at the top of the list.<sup>38</sup> Here local accountability is exchanged for proportionality.
 
