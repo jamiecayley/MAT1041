@@ -15,3 +15,5 @@ order: 4
 ## Personal Log
 
 ## Project Plan
+
+To download the Microsoft Project file with our project plan click [here](https://github.com/jamiecayley/MAT1041/raw/gh-pages/files/plan/project-plan-v1-3.mpp)

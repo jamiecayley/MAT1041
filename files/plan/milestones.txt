@@ -1,0 +1,4 @@
+- Sort out timing (Done)
+- Milestones 
+- Insert meeting times 
+- Put presentation events in presentation tab (DONE)
