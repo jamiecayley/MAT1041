@@ -32,7 +32,13 @@ order: 3
 	- [Comparison of Online and Telephone Polling Accuracy in the 2015 General Election](#comparison-of-online-and-telephone-polling-accuracy-in-the-2015-general-election)
 	- [Undecided Voters](#undecided-voters)
 	- [Conclusion](#conclusion)
-- [Excel Report](#excel-report)
+- [General Election Excel Analysis Findings](#general-election-excel-analysis-findings)
+	- [Voter Turnout by Constituency](#voter-turnout-by-constituency)
+	- [Swings](#swings)
+		- [Region 2](#region-2)
+		- [Wales](#wales)
+		- [UK](#uk)
+	- [Incumbent Effect](#incumbent-effect)
 - [MATLAB report](#matlab-report)
 - [References](#references)
 
@@ -56,7 +62,7 @@ The Borda count, the Condorcet method and the alternative vote are all single wi
 
 The Borda count is currently used for some political elections in Slovenia<sup>12</sup>, Kiribati<sup>13</sup> and Nauru<sup>14</sup>; the Condorcet method is used in elections in various organizations including Music Television (MTV) <sup>15</sup>, Ubuntu<sup>16</sup>, and Wikipedia<sup>17</sup>; the alternative vote is used for some political elections in Australia<sup>18</sup>, Canada<sup>19</sup>, the Czech Republic<sup>20</sup>, India<sup>21</sup>, Ireland<sup>22</sup>, New Zealand<sup>23</sup>, Papua New Guinea<sup>24</sup>, the United Kingdom<sup>25</sup> and the United States<sup>26, 27</sup>. These 3 methods will be illustrated in the diagram below. 
 
-![Election Methods](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image1.png)
+![Election Methods](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image1.png#center)
 
 ### A Few Results Relating to Designing and Selecting Election Methods 
 
@@ -93,7 +99,7 @@ First past the post is one of the most popular voting systems around the world, 
 
 On polling day, the electorate is given a list of candidates standing for election in their constituency.  An individual may only choose one candidate to vote for.  After polling stations close, the votes are subsequently counted and the candidate with the most votes wins and is sent to Parliament. Therefore, all other candidates lose and are not sent to Parliament; this leads to some dubbing this system “winner takes all”.<sup>33</sup>
 
-![Election Results](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image2.png) Figure 1: Pie chart<sup>34</sup> showing the results from the UK 2015 Westminster elections. Inner circle shows popular vote. Outer circle shows seats won. 
+![Election Results](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image2.png#center) Figure 1: Pie chart<sup>34</sup> showing the results from the UK 2015 Westminster elections. Inner circle shows popular vote. Outer circle shows seats won. 
 
 The popular vote for a party is defined as the total number of votes won by all the candidates who stood for the same party.  Since losers are given nothing, nor is there a minimum vote the winner must achieve, this can lead to Parliaments where one party may have a majority of seats but a minority of the popular vote. This happens because the party that won the election, fielded candidates who defeated all alternative candidates in a majority of constituencies in the country. Thus, proportionality is traded for local accountability.
 
@@ -103,7 +109,7 @@ Party list PR is popular in the European Mainland, Latin America, and sub-Sahara
 
 On polling day, the electorate is then given the right to choose their favourite list of candidates and may vote for one respectively. There are several different ways to count votes, here we will look at a commonly used method which is the d'Hondt method.<sup>37</sup> First, the total votes are tallied and divided by the number of seats won by the party (either in the constituency or the entire nation) plus one to acquire a number for the quota for each party. Obviously, at the beginning of the counting process every party has zero seats.
 
-![Quota](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image3.png)
+![Quota](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image3.png#center)
 
 Under the d'Hondt counting system, the party which has the largest quota has its 1st member of the list granted a seat in Parliament and they are duly elected. Then the quota for that party is adjusted thereafter and the party with the largest quota is sought after again. This process is repeated, so ensuring a level of proportionality of seats won to votes cast for those parties. It also ensures that the leadership of all the parties are entrenched in Parliament since the leadership put themselves at the top of the list.<sup>38</sup> Here local accountability is exchanged for proportionality.
 
@@ -120,7 +126,7 @@ Additional-Member systems are a mixture of first past the post and party lists. 
 Figure 1 Scottish Parliamentary election results for 2016 with constituency results on the left and regional list results on the right.<sup>42</sup>
 On polling day, individuals from the electorate are provided two ballots each. One for their constituency and one for their region. They then choose their favourite candidate to represent their constituency and then their favourite party list for the region. Constituency seats are allocated using FPTP. The distribution of regional seats operates under the d’Hondt system. Constituency seats won in that region as well as regional seats are used to find the quota. Therefore, there are two classes of politicians: one which was directly elected by a locality and another which was elected from a list for a region.<sup>43</sup>
 
-![Election Results](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image4.png)Figure 2: Scottish Parliamentary election results for 2016 with constituency results on the left and regional list results on the right <sup>47</sup>
+![Election Results](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image4.png#center)Figure 2: Scottish Parliamentary election results for 2016 with constituency results on the left and regional list results on the right <sup>47</sup>
 
 ### Alternative Vote
 
@@ -191,9 +197,9 @@ Firstly, the system is very effective at producing majority governments – coal
 
 On the other hand, the ‘winner gets the seat’ system causes the geographical location of a parties supporters to become very important in winning elections. A party will win many more seats if all of its supporters are concentrated in an area, rather than spread out over the whole of the UK. Taking the 2015 election as an example, the Scottish National Party was able to win 56 seats despite only having 4.7% of the overall vote share, whereas UKIP won only one seat with 12.6% of the overall vote share.<sup>54</sup> This was entirely due to the effect described, with the supporters of the Scottish National Party concentrated in Scotland (where the party won all but three seats)<sup>55</sup> and the supporters of UKIP spread over the whole of the UK. The concentration of SNP voters compared to UKIP voters is visualised in the maps below (figure 1 and figure 2), where the more opaque the colour, the higher the percentage of supporters in that constituency.
 
-![UKIP Map](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image5.png)  Figure 1: Map showing the spread of UKIP votes <sup>55</sup> 
+![UKIP Map](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image5.png#center)  Figure 1: Map showing the spread of UKIP votes <sup>55</sup> 
 
-![SNP Map](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image7.png)  Figure 2: Map showing the spread of SNP votes <sup>55</sup> 
+![SNP Map](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image7.png#center)  Figure 2: Map showing the spread of SNP votes <sup>55</sup> 
 
 Marginal seats are also an occurrence when using a single-winner voting system. Marginal seats are seats for which the leading party has a very small lead over the other popular parties in the associated constituency. Most commonly, these seats are two way marginal, where two parties are in close competition to win. Such seats are an issue because the winning party will have often gained fewer than half of the votes, meaning that most voters in the constituency would prefer for a different candidate to be in power. In some cases, two way marginal seats can develop further into three way marginal seats, which significantly worsens the problem as supporters of the winning party will be considerably outnumbered by the combined supporters of the other two major parties.
 
@@ -236,29 +242,29 @@ these weights were not correct and they did not successfully represent the opini
 
 ### Telephone Polling
 
-![Election Performance](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image9.png)  Figure 1: YouCov Election Performance 2015 <sup>61</sup> 
+![Election Performance](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image9.png#center)  Figure 1: YouCov Election Performance 2015 <sup>61</sup> 
 
 The use of telephone polling is extremely convenient. In modern society, most people carry a mobile phone around with them wherever they go. This means that a large number of participants respond to polling organisations within 10 minutes of being contacted. Furthermore, participants will respond to questions in their natural state, not having much time to question themselves about their answers. This results in true opinions being recorded with no outside influence. Mobile phones also reach a broad demographic, with even those in the older generations using them. This means that a broad demographic can be reached by polling organisations resulting in more reliable and accurate data.<sup>63,64</sup>
 
-![Polling Results](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image10.png)  Figure 2: Ipsos-Mori Polling Results <sup>65</sup> 
+![Polling Results](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image10.png#center)  Figure 2: Ipsos-Mori Polling Results <sup>65</sup> 
 
 Telephone polling organisations have higher costs than that of online polling organisations. They have to hire a lot of people to call up voters, as a result of this, sample quotas are usually relatively small, meaning weights have to be assigned to demographics in order to gain reliable data. Ipsos MORI predicted that the General Election would be a close call between Labour and Conservative party, though in actual fact the Conservative party won by 7%. This gives the impression that telephone polling is no more reliable than online polling as results gained there were similarly wrong.                          
 
 ### Final Call Predictions for the 2015 Election by Multiple Polling Organisations
 
-![Final Call Predictions](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image11.png)  Table 1: Finall Call predictions <sup> 59 </sup> 
+![Final Call Predictions](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image11.png#center)  Table 1: Finall Call predictions <sup> 59 </sup> 
 
 As you can see from the data above, there was a significant difference in the opinion polls and the actual general election results with an overestimate of 2.9% for the Labour party and an underestimate of -2.4% for the Conservative party on average. 
 
 ### Comparison of Online and Telephone Polling Accuracy in the 2015 General Election
 
-![Online vs Telephone Polling](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image11-2.png)  Table 2: Comparison Between Online and Telephone Polling Accuracy <sup> 59 </sup> 
+![Online vs Telephone Polling](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image11-2.png#center)  Table 2: Comparison Between Online and Telephone Polling Accuracy <sup> 59 </sup> 
 
 As you can see from the data that I calculated, online polling appeared to experience a larger percentage error than that of telephone polling, with the exception of the “Labour” and “Other” column results. This implies that during the 2015 election, telephone polling was more accurate than online polling, despite the use of larger sample sizes from online polling organisations such as YouGov. This is borne from the inaccurate weighting used by YouGov when calculating opinion poll results.
 
 ### Undecided Voters
 
-![Undecided Voters](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image13.png)  Figure 3: 'Have the Voters Decided Yet?' <sup>63</sup> 
+![Undecided Voters](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image13.png#center)  Figure 3: 'Have the Voters Decided Yet?' <sup>63</sup> 
 
 As you can see from the data above collected by Ipsos MORI, of the sample of 1186 people questioned 22% were still not certain who they were going to vote for as of the 6th of May 2015 (one day before the General Election). This means a significant amount of the sample was deemed to be unreliable, hence voting intention figures were only based on 862 adults. This is small sample size cannot be considered representative of the UK electorate. 
 
@@ -266,7 +272,205 @@ As you can see from the data above collected by Ipsos MORI, of the sample of 118
 
 In conclusion, I believe that the opinion polling results of 2015 were inaccurate. They gave off the impression that the election was much closer than what was actually the case. This was a result of the combination of the incorrect demographic weights as well as the small sample sizes used in particular by telephone-polls. Furthermore, the significant number of undecided voters made predictions much more difficult to ascertain. In order to make opinion polling more accurate, adjustments of voter samples are needed to better reflect the UK’s voters. Additionally, a substantial increase in sample size for telephone polls are needed in order to improve accuracy of data gathered. Whilst opinion polling may never be 100% accurate, they are still necessary to view a rough snapshot of where the mood of the country is.
 
-## Excel Report
+## General Election Excel Analysis Findings 
+
+The datasets given contained the final results for the 2010 and 2015 General Elections, it contained 649 constituencies within 20 regions and outlined the results per party.
+
+Within the Excel analysis, we selected three regions and analysed the results found. We evaluated each region’s average result and compared them to the national results. The regions chosen were regions 1, 2 and 3. 
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image13.png#center)
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image13-2.png#center)
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image13-3.png#center)
+
+As you can see from the graphs made, there was a significant shift in­ voters in regions 1 and 2. It can be seen that the votes shifted from the Labour Party and Liberal Democrats to the Nationalist party from 2010 to 2015. Within region 3, average votes per party experienced very little change, with the liberal democrats leading in both years with the nationalist party close behind. 
+
+Despite this significant change in votes from regions 1 and 2 regions, the National Average votes for the Nationalist party was still considerably low. Implying that regions 1 and 2 had little influence over the general election.
+
+Next our group analysed the frequency of nth places (n=1,2,3,4) for all parties in the 2015 election. 
+
+We did this by finding the nth places of each party in each constituency by using the “Rank” function.
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image14.png#center)
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image15.png#center)
+
+
+Then we used the “Countif” function to count the frequency of nth places for the selectedparty.
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image16.png#center)
+
+As you can see, the conservative party came first in a considerable number of constituencies. This reflects on the fact that they won the 2015 election.
+
+The highlighted cell is the amount of times UKIP came second to other parties in 2015.
+
+Next, we found the top ten “winnable” seats for UKIP from other parties in the next election based on the 2015 results. The results were as follows:
+
+<table>
+
+<tbody>
+
+<tr>
+
+<th>UKIP's Top Ten Most "Winnable" Seats from Other Parties in 2015</th>
+
+<th>Difference in Votes from the Winning Party</th>
+
+
+</tr>
+
+<tr class="even">
+
+<td>Thanet South</td>
+
+<td>2,812</td>
+
+
+</tr>
+
+<tr>
+
+<td>Hartlepool</td>
+
+<td>3,024</td>
+
+
+</tr>
+
+<tr class="even">
+
+<td>Boston and Skegness</td>
+
+<td>4,336</td>
+
+
+</tr>
+
+<tr>
+
+<td>Dagengam and Rainham</td>
+
+<td>4,980</td>
+
+
+</tr>
+
+<tr class="even">
+
+<td>Stone-on-Trent Central</td>
+
+<td>5,179</td>
+
+
+</tr>
+
+<tr>
+
+<td>Heywood and Middleton</td>
+
+<td>5,299</td>
+
+
+</tr>
+
+<tr class="even">
+
+<td>Rochester and Strood</td>
+
+<td>7,133</td>
+
+
+</tr>
+
+<tr>
+
+<td>Rother Valley</td>
+
+<td>7,297</td>
+
+
+</tr>
+
+<tr class="even">
+
+<td>Basildon South and East Thurrock</td>
+
+<td>7,691</td>
+
+
+</tr>
+
+<tr>
+
+<td>West Bromwich West</td>
+
+<td>7,742</td>
+
+
+</tr>
+
+</tbody>
+
+</table>
+
+
+This was achieved by filtering the results to find all of those of which UKIP came second. Then, we found the constituencies that had the lowest difference in votes from 1st and 2nd through simply subtracting the second-place result from the first-place result. Then we used conditional formatting to find the 10 lowest values from those results.
+
+### Voter Turnout by Constituency 
+
+Average turnout overall was 65.0% in 2010 and 66.1% in 2015.
+We can see from the following graphs that constituencies won by the Conservative and Green parties have the highest turnouts overall, with 68.2% and 70.0% respectively. The constituencies with the lowest turnouts appear to favour minor parties over the larger ones, however Labour held constituencies too have a low turnout rate.
+
+We also observe that a change in turnout rate correlates with a change of leading party vote. All parties that won constituencies which increased in turnout also increased their lead over their opponents, while a decrease in turnouts made for a weaker victory.
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image17.png#center)
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image18.png#center)
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image19.png#center) 
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image20.png#center) 
+
+
+### Swings 
+
+#### Region 2
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image21.png#center)
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image22.png#center) 
+
+In region 2 we can observe the large shift in support in favour of the Nationalist party, which gained over three times more votes in 2015 than it won in the 2010 election. These votes appear to have come from ex-Labour and ex-Liberal-Democrats, as these parties appear to have suffered the most from this shift, with the Liberal Democrats losing more than half their support. The Conservative party did lose votes, but their overall support seems to have remained largely unaffected.
+
+#### Wales 
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image23.png#center)
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image24.png#center)
+
+In Wales we observe a large swing from the Liberal-Democratic Party to the UK Independence Party. The Conservative and Labour parties have similar votes in each election, slightly higher in 2015. While their overall votes remain much lower than those of the leading parties, it is worth noting that the Green Party received six times as many votes in 2015 than it did in 2010.
+
+#### UK
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image25.png#center)
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image26.png#center)
+
+The overall changes in the UK as a whole are very similar to those in Wales, with the Liberal-Democratic party losing a large portion of their votes and UKIP taking their position as the third largest British party. No significant shifts in either the Conservative or Labour parties, which both seem to slightly strengthen their positions. Support of the Nationalist Party has doubled, which can be related back to the large swing of votes in Scotland.
+
+### Incumbent Effect
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image27.png#center)
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image28.png#center) 
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image29.png#center) 
+
+Using the IF and COUNTIF functions, we can show and find the number of recurring winners in the 2015 election.
+
+In 2015, 453 of the 650 constituencies (69.7%) were won by winners in 2010, with only 197 won by new candidates (30.3%). This supports the idea of there being an “Incumbent Effect” as a current MP has a much higher likelihood of being re-elected. While a previous winner does appear to be significantly more likely to win, they do not seem to gain a huge number of votes for the following election, although there is still an increase. These candidates won an average of 50.5% of votes in their constituencies in 2015, compared to 47.1% in 2010 (increase of 7.2%).
+
 
 ## MATLAB report
 
