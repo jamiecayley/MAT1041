@@ -15,6 +15,7 @@ order: 1
 		- [Wales](#wales)
 		- [UK](#uk)
 	- [Incumbent Effect](#incumbent-effect)
+	- [Further Analysis](#further-analysis)
 
 ## Spreadsheet 
 
@@ -223,5 +224,27 @@ Using the IF and COUNTIF functions, we can show and find the number of recurring
 
 In 2015, 453 of the 650 constituencies (69.7%) were won by winners in 2010, with only 197 won by new candidates (30.3%). This supports the idea of there being an “Incumbent Effect” as a current MP has a much higher likelihood of being re-elected. While a previous winner does appear to be significantly more likely to win, they do not seem to gain a huge number of votes for the following election, although there is still an increase. These candidates won an average of 50.5% of votes in their constituencies in 2015, compared to 47.1% in 2010 (increase of 7.2%).
 
+### Further Analysis 
 
+We then went on to compare average votes between countries within the UK.
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30-1.png#center) 
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30.png#center) 
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30-2.png#center) 
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30-3.png#center) 
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30-4.png#center) 
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30-5.png#center) 
+
+As you can see from the data, all three regions had different winning parties. Region 1 in Scotland
+had a significant win by the Nationalist Party. Region 3 in Northern Ireland had a narrow win by the
+Lib Dems. Region 12 in Wales had a convincing win by the Labour Party. Region 20 in England had a
+substantial win by the Conservative Party.
+
+Region 20 had a similar result to the National Average, suggesting that this region and those around
+it had a large influence over the final result.
 
