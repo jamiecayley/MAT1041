@@ -93,7 +93,7 @@ First past the post is one of the most popular voting systems around the world, 
 
 On polling day, the electorate is given a list of candidates standing for election in their constituency.  An individual may only choose one candidate to vote for.  After polling stations close, the votes are subsequently counted and the candidate with the most votes wins and is sent to Parliament. Therefore, all other candidates lose and are not sent to Parliament; this leads to some dubbing this system “winner takes all”.<sup>33</sup>
 
-![Election Results](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image2.png) * Pie chart<sup>34</sup> showing the results from the UK 2015 Westminster elections. Inner circle shows popular vote. Outer circle shows seats won. * 
+![Election Results](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image2.png) Figure 1: Pie chart<sup>34</sup> showing the results from the UK 2015 Westminster elections. Inner circle shows popular vote. Outer circle shows seats won. 
 
 The popular vote for a party is defined as the total number of votes won by all the candidates who stood for the same party.  Since losers are given nothing, nor is there a minimum vote the winner must achieve, this can lead to Parliaments where one party may have a majority of seats but a minority of the popular vote. This happens because the party that won the election, fielded candidates who defeated all alternative candidates in a majority of constituencies in the country. Thus, proportionality is traded for local accountability.
 
@@ -120,7 +120,7 @@ Additional-Member systems are a mixture of first past the post and party lists. 
 Figure 1 Scottish Parliamentary election results for 2016 with constituency results on the left and regional list results on the right.<sup>42</sup>
 On polling day, individuals from the electorate are provided two ballots each. One for their constituency and one for their region. They then choose their favourite candidate to represent their constituency and then their favourite party list for the region. Constituency seats are allocated using FPTP. The distribution of regional seats operates under the d’Hondt system. Constituency seats won in that region as well as regional seats are used to find the quota. Therefore, there are two classes of politicians: one which was directly elected by a locality and another which was elected from a list for a region.<sup>43</sup>
 
-![Election Results](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image4.png)*Figure 2: Scottish Parliamentary election results for 2016 with constituency results on the left and regional list results on the right <sup>47</sup>*
+![Election Results](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image4.png)Figure 2: Scottish Parliamentary election results for 2016 with constituency results on the left and regional list results on the right <sup>47</sup>
 
 ### Alternative Vote
 
@@ -191,9 +191,9 @@ Firstly, the system is very effective at producing majority governments – coal
 
 On the other hand, the ‘winner gets the seat’ system causes the geographical location of a parties supporters to become very important in winning elections. A party will win many more seats if all of its supporters are concentrated in an area, rather than spread out over the whole of the UK. Taking the 2015 election as an example, the Scottish National Party was able to win 56 seats despite only having 4.7% of the overall vote share, whereas UKIP won only one seat with 12.6% of the overall vote share.<sup>54</sup> This was entirely due to the effect described, with the supporters of the Scottish National Party concentrated in Scotland (where the party won all but three seats)<sup>55</sup> and the supporters of UKIP spread over the whole of the UK. The concentration of SNP voters compared to UKIP voters is visualised in the maps below (figure 1 and figure 2), where the more opaque the colour, the higher the percentage of supporters in that constituency.
 
-![UKIP Map](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image5.png) * Figure 1: Map showing the spread of UKIP votes <sup>55</sup> *
+![UKIP Map](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image5.png)  Figure 1: Map showing the spread of UKIP votes <sup>55</sup> 
 
-![SNP Map](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image7.png) * Figure 2: Map showing the spread of SNP votes <sup>55</sup> *
+![SNP Map](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image7.png)  Figure 2: Map showing the spread of SNP votes <sup>55</sup> 
 
 Marginal seats are also an occurrence when using a single-winner voting system. Marginal seats are seats for which the leading party has a very small lead over the other popular parties in the associated constituency. Most commonly, these seats are two way marginal, where two parties are in close competition to win. Such seats are an issue because the winning party will have often gained fewer than half of the votes, meaning that most voters in the constituency would prefer for a different candidate to be in power. In some cases, two way marginal seats can develop further into three way marginal seats, which significantly worsens the problem as supporters of the winning party will be considerably outnumbered by the combined supporters of the other two major parties.
 
@@ -236,27 +236,29 @@ these weights were not correct and they did not successfully represent the opini
 
 ### Telephone Polling
 
-![Election Performance](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image9.png) * Figure 1: YouCov Election Performance 2015 <sup>61</sup> *
+![Election Performance](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image9.png)  Figure 1: YouCov Election Performance 2015 <sup>61</sup> 
 
 The use of telephone polling is extremely convenient. In modern society, most people carry a mobile phone around with them wherever they go. This means that a large number of participants respond to polling organisations within 10 minutes of being contacted. Furthermore, participants will respond to questions in their natural state, not having much time to question themselves about their answers. This results in true opinions being recorded with no outside influence. Mobile phones also reach a broad demographic, with even those in the older generations using them. This means that a broad demographic can be reached by polling organisations resulting in more reliable and accurate data.<sup>63,64</sup>
 
-![Polling Results](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image10.png) * Figure 2: Ipsos-Mori Polling Results <sup>65</sup> *
+![Polling Results](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image10.png)  Figure 2: Ipsos-Mori Polling Results <sup>65</sup> 
 
 Telephone polling organisations have higher costs than that of online polling organisations. They have to hire a lot of people to call up voters, as a result of this, sample quotas are usually relatively small, meaning weights have to be assigned to demographics in order to gain reliable data. Ipsos MORI predicted that the General Election would be a close call between Labour and Conservative party, though in actual fact the Conservative party won by 7%. This gives the impression that telephone polling is no more reliable than online polling as results gained there were similarly wrong.                          
 
 ### Final Call Predictions for the 2015 Election by Multiple Polling Organisations
 
-![Final Call Predictions](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image11.png) * Table 1: Finall Call predictions <sup> 59 </sup> *
+![Final Call Predictions](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image11.png)  Table 1: Finall Call predictions <sup> 59 </sup> 
 
 As you can see from the data above, there was a significant difference in the opinion polls and the actual general election results with an overestimate of 2.9% for the Labour party and an underestimate of -2.4% for the Conservative party on average. 
 
 ### Comparison of Online and Telephone Polling Accuracy in the 2015 General Election
 
+![Online vs Telephone Polling](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image11-2.png)  Table 2: Comparison Between Online and Telephone Polling Accuracy <sup> 59 </sup> 
+
 As you can see from the data that I calculated, online polling appeared to experience a larger percentage error than that of telephone polling, with the exception of the “Labour” and “Other” column results. This implies that during the 2015 election, telephone polling was more accurate than online polling, despite the use of larger sample sizes from online polling organisations such as YouGov. This is borne from the inaccurate weighting used by YouGov when calculating opinion poll results.
 
 ### Undecided Voters
 
-![Undecided Voters](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image13.png) * Figure 3: 'Have the Voters Decided Yet?' <sup>63</sup> *
+![Undecided Voters](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image13.png)  Figure 3: 'Have the Voters Decided Yet?' <sup>63</sup> 
 
 As you can see from the data above collected by Ipsos MORI, of the sample of 1186 people questioned 22% were still not certain who they were going to vote for as of the 6th of May 2015 (one day before the General Election). This means a significant amount of the sample was deemed to be unreliable, hence voting intention figures were only based on 862 adults. This is small sample size cannot be considered representative of the UK electorate. 
 
