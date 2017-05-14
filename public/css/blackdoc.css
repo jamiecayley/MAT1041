@@ -419,3 +419,9 @@ a.sidebar-nav-item:focus {
   background:#7d7d7d;
 }
 
+/* Center Image */ 
+img[src*='#center'] { 
+    display: block;
+    margin: auto;
+}
+
