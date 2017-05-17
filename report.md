@@ -40,7 +40,9 @@ order: 3
 		- [UK](#uk)
 	- [Incumbent Effect](#incumbent-effect)
 	- [Further Analysis](#further-analysis)
-- [MATLAB report](#matlab-report)
+- [General Election MATLAB Analysis](#general-election-matlab-analysis)
+	- [Outputs](#outputs)
+	- [Report] (#report) 
 - [References](#references)
 
 ## Word Document 
@@ -474,30 +476,147 @@ In 2015, 453 of the 650 constituencies (69.7%) were won by winners in 2010, with
 
 ### Further Analysis 
 
-We then went on to compare average votes between countries within the UK.
+#### Average votes between countries within the UK 
+
 
 ![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30-1.png#center) 
 
 ![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30.png#center) 
 
-![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30-2.png#center) 
+As you can see from the data, all three regions had different winning parties. Region 1 in Scotland had a significant win by the Nationalist Party. Region 3 in Northern Ireland had a narrow win by the Lib Dems. Region 12 in Wales had a convincing win by the Labour Party. Region 20 in England had a substantial win by the Conservative Party. Region 20 had a similar result to the National Average, suggesting that this region and those around it had a large influence over the final result.
 
-![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30-3.png#center) 
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image31-1.png#center) 
 
-![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30-4.png#center) 
+As you can see from the pie charts above, The national average vote distribution experienced little change for the conservative (+1%) and labour (+2%) parties. However, the Lib Dem party experienced a significant fall in average votes (-16%), whereas UKIP experienced a significant increase in average votes (+12%).
 
-![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30-5.png#center) 
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image31-2.png#center) 
 
-As you can see from the data, all three regions had different winning parties. Region 1 in Scotland
-had a significant win by the Nationalist Party. Region 3 in Northern Ireland had a narrow win by the
-Lib Dems. Region 12 in Wales had a convincing win by the Labour Party. Region 20 in England had a
-substantial win by the Conservative Party.
+As you can see from the pie charts above, there was a massive shift in voters from the Labour Party in 2010 to the Scottish National Party in 2015. This resulted in the SNP going from 21% in 2010 to49% in 2015. This change occurred due to the massive support of the Scottish People for the SNP’s policies and promises.
 
-Region 20 had a similar result to the National Average, suggesting that this region and those around
-it had a large influence over the final result.
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image31-3.png#center) 
+
+As you can see from the pie charts above, there was very little change in average votes per party within region 3 (Northern Ireland). The largest change in votes came from UKIP, which experienced a change from 0% in 2010 to 3% in 2015.
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image31-4.png#center) 
+
+As you can see from the pie charts above, Region 12 (Wales) mainly experienced changes in average votes in the Lib Dems, which experienced a fall in average votes from 20% to 6%, and UKIP which experienced and increase in voted from 3% to 14%.
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image31-5.png#center) 
+
+As you can see from the pie chart above, Region 20 (England) experienced average vote changes again in the Lib Dems and UKIP. The Lib Dems experienced a change from 24% in 2010 to 8% in 2015. UKIP experienced a changed of average voted from 4% in 2010 to 17% in 2015.
+
+Though it looks like those who voted Lib Dem switched to UKIP, this was not the case. In actual fact, unhappy voters from the Conservative party switched to UKIP and then voters that voted for the Lib Dems in 2010 voted conservative in 2015.
+
+## General Election MATLAB Analysis
+
+### Outputs 
+
+1. For the 2015 election: 
+a.  According to the data, how many people are there in the UK eligible to vote and how many voted in the 2015 election? Calculate this as a percentage and then calculate the average percentage turnout across all constituencies. 
+b. Produce a 6 by 1 array showing the number of seats held by the 6 main parties in parliament as a result of the 2015 election. Hint: start by producing a matrix where each row has all 0s except for a single 1 in the column corresponding to the winning party. 
+c. Produce a pie chart to show the proportions of total votes gained by each of the6 main parties. Comment on how this compares with the number of seats gained. 
+d. Perform the same analysis for the 2010 election and display the 2010 and 2015 results in a comparative manner. Find a suitable way to show graphically the difference between parties share of the votes and share of parliamentary seats in 2010 and 2015. 
+
+a. By running the script ‘Question_1a.m’, the following output is given:
+According to the data, at the time of the 2015 election there were 46428805 people eligible to vote in the UK.
+According to the data, 30697854 people voted in the 2015 UK election.
+The overall percentage turnout for the whole UK was therefore 6.611812e+01 percent.
+The average of the percentage turnouts in every constituency was 6.605318e+01 percent.
+b. By running the script ‘Question_1b.m’, the following output is given:
+The 6 by 1 array for seats held by the six main parties is:
+
+ArrayOfSixMainParties =
+
+   333
+   235
+    16
+     1
+     1
+    63
+
+Therefore: CON won 333 seats; LAB won 235 seats; LIB won 16 seats; UKIP won 1 seats; Green won 1 seats and Nationalists won 63 seats.
+
+c. Running the script ‘Question_1c.m’ produces the following pie charts:
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image32-1.png#center) 
+
+Note that the UKIP slice in the pie chart showing the spread of seats has been exploded to make the labels legible, without adjusting the order (and therefore colour) of the slices. 
+
+In these two pie charts, the consequences of using a ‘First Past The Post’ voting system can be seen: the representation for the Green Party and for UKIP was much smaller than the number of votes received, and the opposite is true for the Conservative and nationalist parties.
+
+d. Running the script ‘Question_1c.m’ produces the following pie charts:
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image32-2.png#center) 
+
+There is the issue of overlapping section labels on these pie charts, which will be resolved for the presentation by redrawing the graphs using excel, using the data from these MATLAB functions. This will also allow us to change the colours of the section of the pie chart to match the parties represented by each section.
+
+Additionally, running the script “Question_1a_Modified_for_2010.m” produces the following results:
+
+According to the data, at the time of the 2010 election there were 45601060 people eligible to vote in the UK.
+According to the data, 29687737 people voted in the 2010 UK election.
+
+The overall percentage turnout for the whole UK was therefore 6.510317e+01 percent.
+The average of the percentage turnouts in every constituency was 6.501744e+01 percent.
+
+2. The year is now 2020. Assume that there is no change in the electorate or candidates and that the following occur in each constituency, in each case the changes are by comparison with 2015:
+
+a. Assume that the Conservative share of the vote goes up by 3 percentage points, Labour down by 10 percentage points, Libdem down by 5 percentage points and UKIP up by 12 percentage points.
+b. Incumbents experience an increase of x% in the number of their votes in each constituency as a result of non-voters now voting. What is the smallest value of x that results in incumbents obtaining an additional seat? 
+c. Assume that where UKIP are second to the Conservatives they gain 5 percentage points of share of vote and Conservatives lose 5% and where UKIP are second to Labour they gain 7% and Labour lose 7%. Calculate the overall number of seats for each party with the combined effect of these assumptions. 
+
+Running the script “Question_2.m” (Which internally runs the script “Question_2b.m”), the following pie charts are produced: 
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image32-3.png#center) 
+
+Also, the following console output is produced: The minimum gain for one Incumbent to hold their constituency is 0.090000 percent
+
+Once again, the pie chart on the left shows the issue of overlapping pie chart section labels, which will be resolved in the same way as before – by redrawing the pie charts on excel using the data produced by the MATLAB functions. 
+Part 2b is included in the running of the code, but has little effect on the overall outcome because it causes one seat that would be taken over by UKIP after the effects of part ‘a’ to be held by the Labour incumbent. This means it is then a seat in which UKIP are second to Labour by a very small amount, and so with the 7% swing from Labour to UKIP in all constituencies where UKIP is second to Labour in part c, the seat falls to UKIP once more. Therefore, the only change that results from part b is an increase of 0.09% to the votes of all incumbents as a result of non-voters voting. However, this is not enough to gain them any additional seats.
+
+#### Further Study
+
+The Outputs of the further study section will be explored in the “Written Analysis” Section, as we chose not to complete the suggested ideas for further study, to instead investigate our own ideas (such as the upcoming 2017 snap
 
 
-## MATLAB report
+### Report
+
+In section one of the MATLAB analysis, we were asked to calculate the total electorate and the total number of people who voted for both the 2010 and 2015 elections.
+We found that there overall percentage turnout for the 2015 election was 66.12%, which is very similar to the average percentage turnout across all constituencies – which was 66.05%. In 2010, the overall percentage turnout was 65.10% and the average across all constituencies was 65.02%.
+
+Turnout in the United Kingdom is comparably low when compared to other Western democracies. For instance, in the Netherlands and Sweden turnout regularly exceeds 70% of the electorate. This may be attributed to the electoral system in use in both those countries which is party list proportional representation. As explained earlier in the report party list PR allows a vote to have greater strength in deciding who their lawmakers are as seats won are proportional to votes cast for parties. On the other hand, changing the electoral system from FPTP to PR in the UK may not improve turnout – in some Western countries such as Portugal the Czech Republic turnout is lower than it is in the UK even though both of those countries have PR.
+
+It is not therefore possible to conclude that FPTP lowers turnout or PR increases turnout, but it is still fair to say that a voter in Britain may be persuaded to abstain from the voting process if they feel that their vote will not make a difference.
+
+We also noted that the UK general election results from both 2010 and 2015 were not proportional, in that the percentage of seats won by both the Conservative and Labour parties exceeded their percentage of vote share. In 2010 the Liberal Democrats won 24% of the vote but won 10% of the seats according to our model. This is in fact skewed because the data for the Democratic Unionist Party which only stands candidates in Northern Ireland is also included within the Liberal Democrats data. In reality, the Liberal Democrats won fewer than 10% of the seats in the 2010 general election.
+In 2015 the results were even less proportional. The surge in UKIP support failed to materialise in seat wins as their support was too thinly spread, unlike the SNP’s support which was smaller nationally than UKIP, but concentrated more densely in part of the country: Scotland.
+
+The following question asked us to model the results of the next general election altering some inputs for party vote share. In Q2a) we saw that if we increased the Conservatives by 3% and UKIP by 12%, with Labour and the Liberal Democrats losing 10% and 5% respectively, the Conservatives gain more seats than UKIP do despite the much smaller increase in vote share. This shows that the Conservatives are a closer 2nd in more constituencies than UKIP are. The Excel analysis showed that UKIP are 2nd in 120 constituencies, but in most of these constituencies they are far behind such as the seats in Doncaster, Sheffield, and Barnsley. This further reinforces the point that UKIP’s votes are spread across the country too thinly. In order for them to win seats they must work hard to concentrate their vote in areas where they are strong.
+The next question galvanises the points made earlier. If there were a 5% CON-UKIP swing and a 7% LAB-UKIP swing in seats where UKIP are 2nd to both of those parties respectively, UKIP would win just 4 extra seats. 
+However if one combined both Q2a) and Q2c) UKIP would win several more seats, returning dozens of MPs to Parliament. However here again the Conservatives would increase their majority, and Labour would have more seats than UKIP despite having a smaller overall vote share.
+
+#### Further Analysis
+
+We asked ourselves 4 questions.
+1) If there were an Empty Chair party which automatically collected abstentions, how would they fare in a general election using the 2015 results?
+2) How many non-voters would Labour need to win in order to win a majority in the House of Commons, keeping other party’s vote share the same?
+3) What integer percentage of Conservative voters need to switch to Labour in order for Jeremy Corbyn to lead a majority government?
+4) What would the results be for the 2017 general election using the best and worst opinion polls for the Conservatives?
+
+For Q1) all that was required was to add a new column to the matrix of votes cast in each constituency and treat it as a political party competing with the others. The Empties would have won 34% of the votes cast and 346 seats at the general election, winning 194 from Labour and 123 from the Conservatives. Labour would be reduced to a rump of just 41 seats if the Empty Chair party existed – and the Tories would have 69% of the remaining seats in the House of Commons. This further compounds the results obtained in the Excel analysis which showed that Labour won constituencies with considerably lower turnout than the Conservatives did. This shows that there is a greater sense of voter apathy in Labour towns than there is in a Conservative town. This may be down to factors that correlate with Labour voters such as lower socioeconomic status and finding it difficult to travel to a polling station or students who move between addresses regularly.
+
+Alternatively, the reason Labour areas have higher abstentions is because there is less of a debate about Labour’s right to govern in Labour-held areas. So non-Labour supporters are unable to articulate their opposition to Labour in Labour towns to the same extent as non-Conservative supporters in Tory areas. It is evident with the rise of the Scottish Nationalists and UKIP that core Labour voters in their heartlands are losing loyalty to the party, and with enough momentum like the SNP had, Labour could be thrown out of their bases in England and Wales. The Empty Chair party may seem a tad farcical, but it ought to worry Labour that there is a battalion of non-voters lying dormant in their heartlands.
+
+In Q2) we used a script called TurnoutGain and experimented until Labour won more than or equal to 325 seats. The exact percentage of non-voters needed to switch to Labour was 33% and this gave Labour 325 seats.  This amounts to winning 5.4 million non-voters. In practice this is a working majority of 8 because of Sinn Féin’s abstention from the Westminster Parliament. As a caveat to that, the majority is doubtlessly exaggerated because the Social Democratic Labour party, an Irish nationalist party in Northern Ireland, is included within Labour’s data for the purposes of the analysis.
+
+Answering Q3) is crucial as it will provide an answer as to what Labour’s strategy should be for the next general election and whether tacking to the right is worthwhile. If Labour were to target Conservative voters and lose none of their existing voters, then just 2.7 million Conservative voters would need to change their minds to provide Labour with a majority in Parliament. This represents 24% of existing Conservative voters. 
+
+Q2) and Q3) show that is far more efficient for Labour to win Conservative voters than to win non-voters in order to achieve a Labour victory and propel Corbyn and McDonnell into Downing Street. This is because if a Conservative switches to Labour, not only does Labour’s vote share increase but the Conservative vote share decreases too. Winning a non-voter to Labour does not change the Conservative vote share however. It is therefore twice as powerful to convince a Conservative voter to vote Labour as it is to convince a non-voter to vote Labour.
+
+For the final question, we ultimately tried to predict the outcome of the general election on the 8th of June which elects the United Kingdom’s 57th Parliament. The opinion polls were described as worst and best with respect to the Conservatives’ point of view. The worst opinion poll gave the Conservatives a 9% lead over Labour. This represents a 1% LAB-CON swing from the 2015 general election. The results computed from MATLAB showed that the Conservatives would stand to win over a dozen seats directly from Labour and increase their majority from 12 to 50 in the Commons.
+
+If the best opinion poll were borne out by reality then the Conservatives would improve their result to better than anything they have had in living memory with a majority of 194. Just 151 Labour bottoms would sit on the green benches. Such a mega majority for the Conservatives could potentially cause ructions for the Tories as a large group of them may want to break off from the main Conservative party group and could form an Opposition which was larger than the Labour party, thereby becoming the Official Opposition.
+
+
 
 ## References
 1. O'Neal, Brian. Electoral Systems. Ottawa: Library of Parliament, Research Branch, 1993. 24 p. 

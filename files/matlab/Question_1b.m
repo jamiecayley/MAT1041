@@ -11,4 +11,4 @@ end
 
 display('The 6 by 1 array for seats held by the six main parties is:')
 display(ArrayOfSixMainParties)
-fprintf('Therefore: CON won %d seats; LAB won %d seats; LIB won %d seats; UKIP won %d seats; Green won %d seats and Nationalists won %d seats\n',ArrayOfSixMainParties)
+fprintf('Therefore: CON won %d seat(s); LAB won %d seat(s); LIB won %d seat(s); UKIP won %d seat(s); Green won %d seat(s) and Nationalists won %d seat(s)\n',ArrayOfSixMainParties)

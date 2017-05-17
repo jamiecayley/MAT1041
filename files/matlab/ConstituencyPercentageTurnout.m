@@ -4,9 +4,6 @@
 % Written by Michael Goldsmith, 2017
 function output = ConstituencyPercentageTurnout(ConstituencyRowNum,ImportedMatrix)
 NumOfEligibleVoters = ImportedMatrix(ConstituencyRowNum,1);
-NumWhoVoted = 0;
-for i = (2:9)
-    NumWhoVoted = NumWhoVoted + ImportedMatrix(ConstituencyRowNum,i);
-end
+NumWhoVoted = sum(ImportedMatrix(ConstituencyRowNum,2:9));
 output = (NumWhoVoted/NumOfEligibleVoters)*100;
 end
