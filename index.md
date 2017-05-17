@@ -5,7 +5,7 @@ title: About
 
 # About
 
-Welcome to team's B wiki. If you want to download the files we used for our project, please go to the all files page on the sidebar (also note that not all of the files on the all files page are on the other pages, for example, the presentation isn't on any of the other pages). Most pages include content from the the files, but the format may be different from the original files as this page uses markdown and htlm. 
+Welcome to team B's wiki. If you want to download the files we used for our project, please go to the all files page on the sidebar (also note that not all of the files on the all files page are on the other pages, for example, the presentation isn't on any of the other pages). Most pages include content from the the files, but the format may be different from the original files as this page uses markdown and htlm. 
 
 ## Roles Played by Group Members 
 
