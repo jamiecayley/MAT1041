@@ -5,8 +5,8 @@
 %Written By Michael Goldsmith, 2017
 function TotalVotesArray = NumOfVotes(SpreadSheetName,Sheetname,DataRange)
 ImportedMatrix = xlsread(SpreadSheetName,Sheetname,DataRange);
-TotalVotesArray = zeros(1,6);
-for i = (1:6)
+TotalVotesArray = zeros(1,8);
+for i = (1:8)
     TotalVotesArray(1,i) = sum(ImportedMatrix(:,i));
 end
 end

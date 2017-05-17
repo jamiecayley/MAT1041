@@ -19,11 +19,11 @@ order: 1
 
 ## Spreadsheet 
 
-To download the Excel spreadsheet with the first part of the Excel analysis click [here](https://github.com/jamiecayley/MAT1041/raw/gh-pages/files/excel/election-results-section-1.xlsx)
+To download the spreadsheet with our Excel analysis click [here](https://github.com/jamiecayley/MAT1041/raw/gh-pages/files/excel/excel-results.xlsx)
 
 ## Report
 
-To download the Word document with our group report click [here](https://github.com/jamiecayley/MAT1041/raw/gh-pages/files/excel-report.docx). To read the text of our report without downloading the word document, keep on reading. Note: the format of the Word document and the report on this page differ.
+To download the Word document with our group report click [here](https://github.com/jamiecayley/MAT1041/raw/gh-pages/files/group-report.docx). To download the Word document with our Excel report only click [here](https://github.com/jamiecayley/MAT1041/raw/gh-pages/files/excel/excel.docx). To read the text of our report without downloading the word document, keep on reading. Note: the format of the Word document and the report on this page differ.
 
 ### General Election Excel Analysis Findings 
 
@@ -226,25 +226,33 @@ In 2015, 453 of the 650 constituencies (69.7%) were won by winners in 2010, with
 
 ### Further Analysis 
 
-We then went on to compare average votes between countries within the UK.
+#### Average votes between countries within the UK 
+
 
 ![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30-1.png#center) 
 
 ![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30.png#center) 
 
-![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30-2.png#center) 
+As you can see from the data, all three regions had different winning parties. Region 1 in Scotland had a significant win by the Nationalist Party. Region 3 in Northern Ireland had a narrow win by the Lib Dems. Region 12 in Wales had a convincing win by the Labour Party. Region 20 in England had a substantial win by the Conservative Party. Region 20 had a similar result to the National Average, suggesting that this region and those around it had a large influence over the final result.
 
-![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30-3.png#center) 
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image31-1.png#center) 
 
-![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30-4.png#center) 
+As you can see from the pie charts above, The national average vote distribution experienced little change for the conservative (+1%) and labour (+2%) parties. However, the Lib Dem party experienced a significant fall in average votes (-16%), whereas UKIP experienced a significant increase in average votes (+12%).
 
-![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image30-5.png#center) 
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image31-2.png#center) 
 
-As you can see from the data, all three regions had different winning parties. Region 1 in Scotland
-had a significant win by the Nationalist Party. Region 3 in Northern Ireland had a narrow win by the
-Lib Dems. Region 12 in Wales had a convincing win by the Labour Party. Region 20 in England had a
-substantial win by the Conservative Party.
+As you can see from the pie charts above, there was a massive shift in voters from the Labour Party in 2010 to the Scottish National Party in 2015. This resulted in the SNP going from 21% in 2010 to49% in 2015. This change occurred due to the massive support of the Scottish People for the SNP’s policies and promises.
 
-Region 20 had a similar result to the National Average, suggesting that this region and those around
-it had a large influence over the final result.
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image31-3.png#center) 
 
+As you can see from the pie charts above, there was very little change in average votes per party within region 3 (Northern Ireland). The largest change in votes came from UKIP, which experienced a change from 0% in 2010 to 3% in 2015.
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image31-4.png#center) 
+
+As you can see from the pie charts above, Region 12 (Wales) mainly experienced changes in average votes in the Lib Dems, which experienced a fall in average votes from 20% to 6%, and UKIP which experienced and increase in voted from 3% to 14%.
+
+![](https://raw.githubusercontent.com/jamiecayley/MAT1041/gh-pages/public/images/image31-5.png#center) 
+
+As you can see from the pie chart above, Region 20 (England) experienced average vote changes again in the Lib Dems and UKIP. The Lib Dems experienced a change from 24% in 2010 to 8% in 2015. UKIP experienced a changed of average voted from 4% in 2010 to 17% in 2015.
+
+Though it looks like those who voted Lib Dem switched to UKIP, this was not the case. In actual fact, unhappy voters from the Conservative party switched to UKIP and then voters that voted for the Lib Dems in 2010 voted conservative in 2015.
